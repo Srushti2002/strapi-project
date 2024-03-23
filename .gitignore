@@ -106,6 +106,10 @@ coverage
 ############################
 
 .env
+.env.example
+.editorconfig
+.eslintignore
+.eslintrc
 license.txt
 exports
 .strapi
