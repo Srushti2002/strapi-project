@@ -22,7 +22,7 @@ module.exports = ({ env }) => ({
       database: env('railway'),// Change 'PGDATABASE' to the actual environment variable provided by Railway for the database name
       user: env('postgres'), // Change 'PGUSER' to the actual environment variable provided by Railway for the username
       password: env('QxmmsPGYKAanZgylbSAXAmgTcfkNyvMt'), // Change 'PGPASSWORD' to the actual environment variable provided by Railway for the password
-      ssl: env.bool('820', true), // Change 'PGSSL' to the actual environment variable provided by Railway for SSL, assuming it's enabled
+      ssl: env.bool('820', false), // Change 'PGSSL' to the actual environment variable provided by Railway for SSL, assuming it's enabled
     },
     pool: { min: 0 }
   },
