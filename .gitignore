@@ -116,3 +116,5 @@ exports
 dist
 build
 .strapi-updater.json
+data
+config\env
